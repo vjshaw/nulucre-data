@@ -1,0 +1,24 @@
+[
+  {
+    "cohort_id": "jan2027-v1",
+    "snapshot_date": "2026-10-23",
+    "attested_at": "2026-10-24T00:54:50.413121+00:00",
+    "sha256": "111456014ae197486be3f5013fd04e4acbf1f4f251be843a8328db2dd4857746",
+    "file": "score-snapshots.ndjson",
+    "record_count": 96,
+    "chains": {
+      "stellar": {
+        "tx": "42549703a5a7109faf89dfce55a2ed3bc90fe3d1cf16897de58ab408f7dbcf1a",
+        "network": "stellar:pubnet",
+        "explorer": "https://stellar.expert/explorer/public/tx/42549703a5a7109faf89dfce55a2ed3bc90fe3d1cf16897de58ab408f7dbcf1a",
+        "error": null
+      }
+    },
+    "how_to_verify": [
+      "1. Download score-snapshots-2026-10-23.ndjson from https://github.com/nulucre/nulucre-data",
+      "2. Run: sha256sum score-snapshots-2026-10-23.ndjson",
+      "3. Confirm output matches: 111456014ae197486be3f5013fd04e4acbf1f4f251be843a8328db2dd4857746",
+      "4. Confirm the same hash appears in the Stellar transaction above"
+    ]
+  }
+]
